@@ -1,0 +1,282 @@
+body{
+    background: white;
+    margin:0;
+   font: Raleway;
+ 
+}
+h2{
+    color: white;
+}
+
+.listblock {
+  text-align: left;
+}
+.logo {
+text-decoration: none;
+font: 50px Raleway;
+}
+.footer{
+font: 15px Raleway;
+}
+
+
+a:link {
+color: white;
+text-decoration: none;
+
+}
+a:visited {
+color: white;
+border-bottom: 1px solid white;
+}
+a:hover {
+color: white;
+border-bottom: 1px solid #000000;
+}
+
+h1 {
+    font-size:50px;
+}
+/*GRID*/
+
+.g__wrapper {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.g__container {
+  display: block;
+  width:100%;
+  margin: 0 16px;
+ 
+}
+.g__row {
+  display: block;
+  margin: 0px -95px;
+  padding: 0;
+  overflow: hidden;
+}
+.g__column {
+  position: relative;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+
+}
+
+.g__column-12 {
+  width: 100%;
+  
+}
+
+.g__column-11 {
+  width: 91.6667%;
+}
+
+.g__column-10 {
+  width: 83.3333%;
+}
+
+.g__column-9 {
+  width: 75%;
+}
+
+.g__column-8 {
+  width: 66.6667%;
+}
+
+.g__column-7 {
+  width: 58.3333%;
+}
+
+.g__column-6 {
+  width: 50%;
+}
+
+.g__column-5 {
+  width: 41.6667%;
+}
+
+.g__column-4 {
+  width: 33.3333%;
+}
+
+.g__column-3 {
+  width: 25%;
+}
+
+.g__column-2 {
+  width: 16.6667%;
+}
+
+.g__column-1 {
+  width: 8.3333%;
+}
+
+
+.bg-add {
+  margin: -10px 40px;
+  background: black;
+  padding: 1em 5em;
+  width:100%;
+ text-align:left;
+
+}
+
+.bg-add2{
+     margin:0px -95px;
+  background: #1abc9c;
+  padding: 40px;
+  color:black;
+  text-align: center;
+  float:center;
+}
+
+.bg-add3{
+     margin:10px -95px;
+  background: #F2F1EC;
+  padding: 40px;
+  color:black;
+  text-align: center;
+  float:center;
+}
+
+
+
+/*navbar*/
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+    color: white;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.black
+{
+    background: black;
+}
+
+div.pullUpDown a:before, div.pullUpDown a:after
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+div.pullUpDown a:before
+{
+    top: 0px;
+} 
+
+div.pullUpDown a:after
+{
+    bottom: 0px;
+}
+
+div.pullUpDown a:hover:before, div.pullUpDown a:hover:after
+{
+    height: 100%;
+}
+
+.onsteam{
+    border-radius: 100%;
+}
+/*forms*/
+
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 18px;
+  font-family: 'century gothic', sans-serif;
+	color: #4EA3A3;
+	margin: 0;
+  padding: 1em 5px;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #4EA3A3;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+
+    border-radius: 3px;
+    color: #232323;
+    font-family: "century gothic", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+background-color: #1abc9c;
+  
+	
+}
+.material-icons {
+    font-size:45px;
+    color: darkslategray;
+}
+
+/* CARDS */
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 30%;
+    height: auto;
+    margin: 100px;
+    padding: 5px;
+    float: center;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+    margin: 100px;
+   
+}
+
+
